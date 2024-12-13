@@ -10,7 +10,6 @@
 
 void UMyBlueprintFunctionLibrary::ListAssetDependencies()
 {
-    UE_LOG(LogTemp, Warning, TEXT("Esto furula"));
     // Obtener referencia al módulo de AssetRegistry
     FAssetRegistryModule& AssetRegistryModule = FModuleManager::LoadModuleChecked<FAssetRegistryModule>("AssetRegistry");
     IAssetRegistry& AssetRegistry = AssetRegistryModule.Get();
